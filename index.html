@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <script src="js/button/model.js"></script>
+    <script src="js/button/view.js"></script>
+    <script src="js/button/controller.js"></script>
+
+    <script src="js/number/model.js"></script>
+    <script src="js/number/view.js"></script>
+    <script src="js/number/controller.js"></script>
+
+    <script src="js/operator/model.js"></script>
+    <script src="js/operator/view.js"></script>
+    <script src="js/operator/controller.js"></script>
+
+    <script src="js/display/model.js"></script>
+    <script src="js/display/view.js"></script>
+    <script src="js/display/controller.js"></script>
+
+    <script src="js/calculator/model.js"></script>
+    <script src="js/calculator/view.js"></script>
+    <script src="js/calculator/controller.js"></script>
+</head>
+<body>
+<button onclick="add()">Add</button>
+    <script>
+        var i=0;
+        options = {
+            className:''
+        }
+            var add = function() {
+                    new CalculatorController(i++,options);
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+button{
+border-color:darkgray;
+}
+
+.calculator{
+    margin: 20px;
+    width: 300px;
+    padding: 25px;
+    background-color: #555555;
+}
+
+.display{
+    font-size:35px;
+    border-style: solid;
+    overflow: hidden;
+    background-color: dimgrey;
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.number-div{
+    width: 75%;
+    float: left;
+}
+
+.number{
+
+    background-color: #111111;
+    color: white;
+    width:33%;
+    height:46px;
+}
+
+.operator{
+
+    color: white;
+    background-color: #343434;
+    width:25%;
+    height:46px;
+}
+
+button:hover{
+    background-color: darkgray;
+}
+
+.result{
+    background-color:#345b7a;
+    width:25%;
+    height:46px;
+    color : white;
+}
+
+.result:hover{
+    background-color:#2d516d;
+}
